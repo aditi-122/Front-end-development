@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai-Course-Box</title>
+    <style>
+        .container{
+                /* width: 800px;
+                height: 600px; */
+                /* border: 1px solid red; */
+                display: flex;
+                /* gap: 20px; */
+                justify-content: space-evenly;
+                align-items: center;
+                margin: auto;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                padding: 20px;
+
+        }
+        .child{
+            width: 300px;
+            /* border: 2px solid orange; */
+            padding: 23px;
+             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+        }
+        .image-div{
+            height:50%;
+            /* border: 1px solid green; */
+        }
+        .detail img{
+             width: 15px;
+             
+        }
+       button{
+        width: 80%;
+        height: 30px;
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: 10%;
+        letter-spacing: 2px;
+       }
+       button:hover{
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        font-weight: bold;
+       }
+       .detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+       }
+    
+       img{
+        width: 100px;
+       }
+       h2{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <h2>Our Courses</h2>
+    <div class="container">
+       <div class="child">
+           <div class="image-div">
+              <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/383208d377bcec6abbc78ec5c6cd605e88549130edb5af33fa75a648a22b29fc_1fd500638f">
+              <h2>Software Develpoment</h2>
+              <hr>
+           </div>
+           <div class="detail">
+            <h4><img src="images/icons8-checkmark-48.png"> Become ready in 30-35 weeks.</h4>
+            <h4><img src="images/icons8-checkmark-48.png"> <span style="font-weight:50;">Opportunites:</span> Full Stack Develper, Backend Developer & much more</h4>
+            <button>View Details</button>
+           </div>
+       </div>
+       <div class="child">
+        <div class="image-div">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/10c326ed98b029b8b34538591be76b8900055f53894244a62f3a8655e42f73e4_2c1ea6cbf4">
+            <h2>Data Analytics</h2>
+            <hr>
+         </div>
+        <div class="detail">
+            <h4><img src="images/icons8-checkmark-48.png"> Become job ready in 25 weeks. </h4>
+            <h4><img src="images/icons8-checkmark-48.png"> <span style="font-weight:50;">Opportunites:</span> Data Engineer, Data Analyst & much more</h4>
+            <button>View Details</button>
+           </div>
+       </div>
+    </div>
+</body>
+</html>
